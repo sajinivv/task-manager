@@ -11,7 +11,6 @@ const user = useUser();
         <h5 className="card-title" role='user-name'>{user.name}</h5>
         <p className="card-text" role='user-email'>{user.email}</p>
         <p className="card-text" role='user-url'>{user.url}</p>
-
       </div>
     </div>
   );
