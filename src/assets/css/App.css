@@ -1,0 +1,29 @@
+.page-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.profile-section {
+  width: 300px;
+  background: #f8f9fa;
+  padding: 24px;
+}
+
+.tasks-section {
+  flex: 1;
+  padding: 24px;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 768px) {
+  .page-layout {
+    flex-direction: column;
+  }
+  .profile-section {
+    width: 100%;
+    padding: 16px;
+  }
+  .tasks-section {
+    padding: 16px;
+  }
+}
